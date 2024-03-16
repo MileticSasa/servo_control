@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/rpi/bin/ARM/Debug/rpi.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/rpi/obj/ARM/Debug/main.o -lwiringPi
